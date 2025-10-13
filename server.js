@@ -46,7 +46,6 @@ watcher.on("change", (filePath) => {
   const relativePath = filePath.split("projectStorage/")[1];
   const content = fs.readFileSync(filePath, "utf8");
 
-  //   console.log("chokider from server", content);
   wss.clients.forEach((client) => {
     if (client.readyState === WebSocket.OPEN) {
       client.send(
