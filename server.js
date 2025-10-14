@@ -1,16 +1,16 @@
 // backend/server.js
-const express = require("express");
-const http = require("http");
-const WebSocket = require("ws");
-const chokidar = require("chokidar");
-const path = require("path");
-const fs = require("fs");
-const { createProjectFromJson } = require("./fileManager");
+import express from "express";
+import http from "http";
+import WebSocket from "ws";
+import chokidar from "chokidar";
+import path from "path";
+import fs from "fs";
+import { createProjectFromJson } from "./fileManager.js";
+import chunksRoute from "./routes/chunksRoute.js";
 
+const PROJECT_ROOT = path.join(process.cwd(), "projectStorage");
 const app = express();
 app.use(express.json());
-
-const PROJECT_ROOT = path.join(__dirname, "projectStorage");
 
 // ✅ API: Create project from JSON
 app.post("/load-json", (req, res) => {
@@ -19,24 +19,29 @@ app.post("/load-json", (req, res) => {
   createProjectFromJson(structure, projectPath);
   res.json({ success: true, projectPath });
 });
+app.use("/api/v1", chunksRoute);
 
-// ✅ Start HTTP + WS Server
+// ✅ Start HTTP Server
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ server });
+
+// ✅ Correct way to create a WebSocket server
+// const wss = new WebSocket.Server({
+//   server: server, // Pass the HTTP server here
+// });
 
 // ✅ WebSocket Hub
-wss.on("connection", (ws) => {
-  console.log("Client connected");
-  ws.on("message", (data) => {
-    const msg = JSON.parse(data);
+// wss.on("connection", (ws) => {
+//   console.log("Client connected");
+//   ws.on("message", (data) => {
+//     const msg = JSON.parse(data);
 
-    if (msg.type === "fileUpdate") {
-      const filePath = path.join(PROJECT_ROOT, msg.projectName, msg.path);
-      fs.writeFileSync(filePath, msg.content, "utf8");
-      console.log("File updated from client:", filePath);
-    }
-  });
-});
+//     if (msg.type === "fileUpdate") {
+//       const filePath = path.join(PROJECT_ROOT, msg.projectName, msg.path);
+//       fs.writeFileSync(filePath, msg.content, "utf8");
+//       console.log("File updated from client:", filePath);
+//     }
+//   });
+// });
 
 // ✅ Watch for file changes in code-server side
 const watcher = chokidar.watch(PROJECT_ROOT, { ignoreInitial: true });
@@ -46,17 +51,18 @@ watcher.on("change", (filePath) => {
   const relativePath = filePath.split("projectStorage/")[1];
   const content = fs.readFileSync(filePath, "utf8");
 
-  wss.clients.forEach((client) => {
-    if (client.readyState === WebSocket.OPEN) {
-      client.send(
-        JSON.stringify({
-          type: "fileChanged",
-          path: relativePath,
-          content,
-        })
-      );
-    }
-  });
+  console.log("file watcing path", filePath);
+  // wss.clients.forEach((client) => {
+  //   if (client.readyState === WebSocket.OPEN) {
+  //     client.send(
+  //       JSON.stringify({
+  //         type: "fileChanged",
+  //         path: relativePath,
+  //         content,
+  //       })
+  //     );
+  //   }
+  // });
 });
 
 server.listen(4000, () => console.log("Backend running on port 4000"));

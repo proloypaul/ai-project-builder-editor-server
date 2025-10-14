@@ -1,6 +1,6 @@
 // backend/fileManager.js
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 function createProjectFromJson(structure, targetPath) {
   function createRecursive(obj, currentPath) {
@@ -21,4 +21,5 @@ function createProjectFromJson(structure, targetPath) {
   createRecursive(structure, targetPath);
 }
 
-module.exports = { createProjectFromJson };
+// Export the function as an ESM export
+export { createProjectFromJson };
