@@ -7,9 +7,11 @@ import path from "path";
 import fs from "fs";
 import { createProjectFromJson } from "./fileManager.js";
 import chunksRoute from "./routes/chunksRoute.js";
+import vectorDBRoute from "./routes/vectorDBRoute.js";
 
 const PROJECT_ROOT = path.join(process.cwd(), "projectStorage");
 const app = express();
+
 app.use(express.json());
 
 // ✅ API: Create project from JSON
@@ -20,6 +22,7 @@ app.post("/load-json", (req, res) => {
   res.json({ success: true, projectPath });
 });
 app.use("/api/v1", chunksRoute);
+app.use("/api/v1/vectorDB", vectorDBRoute);
 
 // ✅ Start HTTP Server
 const server = http.createServer(app);
