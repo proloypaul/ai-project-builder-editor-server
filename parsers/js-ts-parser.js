@@ -365,6 +365,24 @@ export function parseJSWithIndex(
 
   const functionChunks = [];
 
+  // Helper: gather local function and class names declared in this file
+  const localFunctionNames = functions
+    .map((f) =>
+      f.kind === "function_declaration"
+        ? (f.node.childForFieldName &&
+            f.node.childForFieldName("name")?.text) ||
+          null
+        : (f.nameNode && f.nameNode.text) || null
+    )
+    .filter(Boolean);
+
+  const localClassNames = classes
+    .map((c) => {
+      const n = c.childForFieldName && c.childForFieldName("name");
+      return n && n.text ? n.text : null;
+    })
+    .filter(Boolean);
+
   for (const f of functions) {
     let fname = "anonymous",
       funcCode = "";
@@ -386,6 +404,7 @@ export function parseJSWithIndex(
     const usedImports = [];
     const usedCrossFiles = [];
 
+    // 1) Detect used imports by localName token presence
     for (const imp of importSpecifiers) {
       if (imp.localName && tokens.has(imp.localName)) {
         usedImports.push(imp.source);
@@ -399,19 +418,87 @@ export function parseJSWithIndex(
       }
     }
 
-    // map tokens to exports (defensive)
+    // 2) Map tokens to export files via exportsIndex (cross-file usage by token)
     for (const t of tokens) {
       const mapped = mapTokenToExportFiles(t);
       if (mapped && mapped.length) {
-        // mapped is guaranteed to be an array now
         mapped.forEach((mf) => {
           if (!usedCrossFiles.includes(mf)) usedCrossFiles.push(mf);
         });
       }
     }
 
+    // 3) Detect used local functions and classes by token presence (scan declarations for this file)
+    const usedLocalFunctions = localFunctionNames.filter((fn) =>
+      tokens.has(fn)
+    );
+    const usedLocalClasses = localClassNames.filter((cls) => tokens.has(cls));
+
+    // 4) Detect class-like usage inside the function body using regex:
+    //    - new ClassName(...)
+    //    - throw new ClassName(...)
+    //    - optionally ClassName.prototype or ClassName.method (we focus on new/throw)
+    const classRefs = new Set();
+    try {
+      for (const m of funcCode.matchAll(/\bnew\s+([A-Z][A-Za-z0-9_]*)/g)) {
+        if (m && m[1]) classRefs.add(m[1]);
+      }
+      for (const m of funcCode.matchAll(
+        /\bthrow\s+new\s+([A-Z][A-Za-z0-9_]*)/g
+      )) {
+        if (m && m[1]) classRefs.add(m[1]);
+      }
+      // also catch simple "throw ClassName(" or "throw ClassName " (sometimes used)
+      for (const m of funcCode.matchAll(/\bthrow\s+([A-Z][A-Za-z0-9_]*)\b/g)) {
+        if (m && m[1]) classRefs.add(m[1]);
+      }
+    } catch (e) {
+      // matchAll might throw for non-strings in older runtimes; ignore safely
+    }
+    const usedClassNames = Array.from(classRefs);
+
+    // 5) If class-like tokens match imported identifiers, ensure imported identifier is considered a class usage
+    for (const imp of importSpecifiers) {
+      if (
+        imp.localName &&
+        (tokens.has(imp.localName) || usedClassNames.includes(imp.localName))
+      ) {
+        // already pushed imports in step 1 when tokens.has(imp.localName)
+        if (!usedImports.includes(imp.source)) usedImports.push(imp.source);
+        if (
+          imp.sourceResolved &&
+          !usedCrossFiles.includes(imp.sourceResolved) &&
+          (imp.sourceResolved.includes("/") ||
+            imp.sourceResolved.endsWith(".js") ||
+            imp.sourceResolved.endsWith(".ts"))
+        )
+          usedCrossFiles.push(imp.sourceResolved);
+      }
+    }
+
+    // 6) collect used globals referenced by token names
     const usedGlobals = topLevelGlobals.filter((g) => tokens.has(g));
 
+    // Build the per-function upstreamDependencies
+    // functionChunks.push({
+    //   type: "function",
+    //   functionName: fname,
+    //   className: null,
+    //   parentClassName: null,
+    //   fileName,
+    //   folderName,
+    //   upstreamDependencies: {
+    //     imports: Array.from(new Set(usedImports)),
+    //     crossFileImports: Array.from(new Set(usedCrossFiles)),
+    //     includingFunctions: Array.from(new Set(usedLocalFunctions)),
+    //     // include both local classes and class refs discovered via regex
+    //     includingClasses: Array.from(
+    //       new Set([...usedLocalClasses, ...usedClassNames])
+    //     ),
+    //   },
+    //   globalVariables: usedGlobals,
+    //   actualCode: funcCode,
+    // });
     functionChunks.push({
       type: "function",
       functionName: fname,
@@ -421,7 +508,17 @@ export function parseJSWithIndex(
       folderName,
       upstreamDependencies: {
         imports: Array.from(new Set(usedImports)),
-        crossFileImports: Array.from(new Set(usedCrossFiles)),
+        crossFileImports: [
+          ...Array.from(new Set(usedLocalFunctions)),
+          ...Array.from(new Set([...usedLocalClasses, ...usedClassNames])).map(
+            (cls) => `${cls}.constructor`
+          ),
+        ],
+        // includingFunctions: Array.from(new Set(usedLocalFunctions)),
+        // // include both local classes and class refs discovered via regex
+        // includingClasses: Array.from(
+        //   new Set([...usedLocalClasses, ...usedClassNames])
+        // ),
       },
       globalVariables: usedGlobals,
       actualCode: funcCode,
@@ -456,12 +553,16 @@ export function parseJSWithIndex(
             const tokens = new Set(tokensFrom(mcode));
             const usedImports = [];
             const usedCrossFiles = [];
+
+            // detect used imports by localName token presence
             for (const imp of importSpecifiers) {
               if (imp.localName && tokens.has(imp.localName)) {
                 usedImports.push(imp.source);
                 if (imp.sourceResolved) usedCrossFiles.push(imp.sourceResolved);
               }
             }
+
+            // map tokens to export files (cross-file)
             for (const t of tokens) {
               const mapped = mapTokenToExportFiles(t);
               if (mapped && mapped.length)
@@ -469,7 +570,72 @@ export function parseJSWithIndex(
                   if (!usedCrossFiles.includes(mf)) usedCrossFiles.push(mf);
                 });
             }
+
+            // detect used local functions/classes (based on declarations in the file)
+            const usedLocalFunctions = localFunctionNames.filter((fn) =>
+              tokens.has(fn)
+            );
+            const usedLocalClasses = localClassNames.filter((cls) =>
+              tokens.has(cls)
+            );
+
+            // class-like usage in method body (new/throw/etc)
+            const methodClassRefs = new Set();
+            try {
+              for (const m of mcode.matchAll(/\bnew\s+([A-Z][A-Za-z0-9_]*)/g)) {
+                if (m && m[1]) methodClassRefs.add(m[1]);
+              }
+              for (const m of mcode.matchAll(
+                /\bthrow\s+new\s+([A-Z][A-Za-z0-9_]*)/g
+              )) {
+                if (m && m[1]) methodClassRefs.add(m[1]);
+              }
+              for (const m of mcode.matchAll(
+                /\bthrow\s+([A-Z][A-Za-z0-9_]*)\b/g
+              )) {
+                if (m && m[1]) methodClassRefs.add(m[1]);
+              }
+            } catch (e) {
+              // ignore
+            }
+            const usedMethodClassNames = Array.from(methodClassRefs);
+
+            // ensure imported identifiers used in method are captured in usedImports/usedCrossFiles
+            for (const imp of importSpecifiers) {
+              if (
+                imp.localName &&
+                (tokens.has(imp.localName) ||
+                  usedMethodClassNames.includes(imp.localName))
+              ) {
+                if (!usedImports.includes(imp.source))
+                  usedImports.push(imp.source);
+                if (
+                  imp.sourceResolved &&
+                  !usedCrossFiles.includes(imp.sourceResolved)
+                )
+                  usedCrossFiles.push(imp.sourceResolved);
+              }
+            }
+
             const usedGlobals = topLevelGlobals.filter((g) => tokens.has(g));
+            // functionChunks.push({
+            //   type: "function",
+            //   functionName: `${className}.${mname}`,
+            //   className,
+            //   parentClassName,
+            //   fileName,
+            //   folderName,
+            //   upstreamDependencies: {
+            //     imports: Array.from(new Set(usedImports)),
+            //     crossFileImports: Array.from(new Set(usedCrossFiles)),
+            //     includingFunctions: Array.from(new Set(usedLocalFunctions)),
+            //     includingClasses: Array.from(
+            //       new Set([...usedLocalClasses, ...usedMethodClassNames])
+            //     ),
+            //   },
+            //   globalVariables: usedGlobals,
+            //   actualCode: mcode,
+            // });
             functionChunks.push({
               type: "function",
               functionName: `${className}.${mname}`,
@@ -479,7 +645,16 @@ export function parseJSWithIndex(
               folderName,
               upstreamDependencies: {
                 imports: Array.from(new Set(usedImports)),
-                crossFileImports: Array.from(new Set(usedCrossFiles)),
+                crossFileImports: [
+                  ...Array.from(new Set(usedLocalFunctions)),
+                  ...Array.from(
+                    new Set([...usedLocalClasses, ...usedMethodClassNames])
+                  ).map((cls) => `${cls}.constructor`),
+                ],
+                // includingFunctions: Array.from(new Set(usedLocalFunctions)),
+                // includingClasses: Array.from(
+                //   new Set([...usedLocalClasses, ...usedMethodClassNames])
+                // ),
               },
               globalVariables: usedGlobals,
               actualCode: mcode,
