@@ -1,0 +1,1291 @@
+{
+  "nodes": [
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/.env",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/.env"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/.gitignore",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/.gitignore"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config/index.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config/index.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/debug.log",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/debug.log"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/package.json",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/package.json"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/blog.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/blog.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/category.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/category.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/invest.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/invest.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/investor.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/investor.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-category.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-category.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-parent-category.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-parent-category.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-subcategory.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-subcategory.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/roi.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/roi.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db/connect.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db/connect.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/badRequest.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/badRequest.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthenticated.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthenticated.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthorized.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthorized.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/errorHandler.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/errorHandler.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/routeNotFound.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/routeNotFound.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/blog.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/blog.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/category.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/category.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investments.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investments.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investor.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investor.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-category.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-category.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-parent-category.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-parent-category.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-subcategory.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-subcategory.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/roi.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/roi.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/user.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/user.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/category.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/category.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/invest.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/invest.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/investor.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/investor.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-category.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-category.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-parent-category.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-parent-category.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-subcategory.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-subcategory.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/roi.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/roi.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/user.route.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/user.route.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/blog.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/blog.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/category.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/category.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-category.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-category.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-parent-category.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-parent-category.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-subcategory.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-subcategory.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/roi.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/roi.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/checkPermission.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/checkPermission.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/createTokenUser.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/createTokenUser.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/jwt.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/jwt.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/multer.js",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/multer.js"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "type": "Folder",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1726806161682_card4.png",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1726806161682_card4.png"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1726807830329_60255e7341de62c988dd08aa_DigitalAdvertising.jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1726807830329_60255e7341de62c988dd08aa_DigitalAdvertising.jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727252726838_5174.jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727252726838_5174.jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727253841880_19697.jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727253841880_19697.jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727253847295_36472.jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727253847295_36472.jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727255832897_15847.jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727255832897_15847.jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256053501_10-08-24-14-08-26_MinimalistOnlineStoreYoutubeThumbnail-2.jpeg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256053501_10-08-24-14-08-26_MinimalistOnlineStoreYoutubeThumbnail-2.jpeg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256161940_42609 (1).jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256161940_42609 (1).jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256229377_42609 (2).jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256229377_42609 (2).jpg"
+    },
+    {
+      "id": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256285257_15847 (1) (1).jpg",
+      "type": "File",
+      "file": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256285257_15847 (1) (1).jpg"
+    }
+  ],
+  "edges": [
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/.env",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/.gitignore",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/config/index.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/debug.log",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/package.json",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db/connect.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/config/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/user.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/investor.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/invest.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/roi.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/category.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-parent-category.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-category.route.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-subcategory.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/routeNotFound.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/app.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/errorHandler.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/blog.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/blog.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/blog.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/blog.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/category.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/category.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/category.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/category.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/invest.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/invest.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/investor.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/investor.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-category.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-category.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-category.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-category.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-parent-category.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-parent-category.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-parent-category.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-parent-category.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-subcategory.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-subcategory.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-subcategory.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-subcategory.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/roi.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/roi.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/roi.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/db/connect.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/badRequest.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/badRequest.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/badRequest.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthenticated.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthorized.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthenticated.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthenticated.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthorized.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/unauthorized.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/customApiError.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/jwt.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/errorHandler.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/routeNotFound.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/blog.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/category.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investments.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investor.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-category.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-category.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-subcategory.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-parent-category.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-parent-category.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-category.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-parent-category.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-subcategory.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-subcategory.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/roi.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/user.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/blog.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/multer.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/blog.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/category.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/category.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/category.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/category.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/invest.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/invest.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/invest.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/investor.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/investor.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/investor.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-category.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-category.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-category.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-category.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-parent-category.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-parent-category.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-parent-category.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-parent-category.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-subcategory.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-subcategory.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product-subcategory.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product-subcategory.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/product.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/multer.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/product.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/middlewares/authenticate.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/roi.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/roi.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/roi.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/user.route.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/routes/user.route.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/controllers/user.controller.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/blog.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/blog.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/blog.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/blog.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/category.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/category.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/category.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/category.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investments.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investor.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/badRequest.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/notFound.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/investor.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/investor.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/invest.service.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-category.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-category.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-category.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-category.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-parent-category.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-parent-category.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-parent-category.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-parent-category.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-subcategory.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-subcategory.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product-subcategory.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product-subcategory.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/product.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/product.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/roi.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/roi.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/roi.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/models/user.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/services/user.service.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/checkPermission.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/checkPermission.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/errors/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/createTokenUser.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/checkPermission.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/createTokenUser.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/index.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/jwt.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/jwt.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/jwt.js",
+      "to": "D:/ResumeProject/ZtriosCompanyRepo/Ai-builder-ztrios/ai-bulder-backend/projectStorage/ai-build-projectOne/topmostsourcing-backend/config/index.js",
+      "type": "IMPORTS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/src/utils/multer.js",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1726806161682_card4.png",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1726807830329_60255e7341de62c988dd08aa_DigitalAdvertising.jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727252726838_5174.jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727253841880_19697.jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727253847295_36472.jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727255832897_15847.jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256053501_10-08-24-14-08-26_MinimalistOnlineStoreYoutubeThumbnail-2.jpeg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256161940_42609 (1).jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256229377_42609 (2).jpg",
+      "type": "CONTAINS"
+    },
+    {
+      "from": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads",
+      "to": "projectStorage/ai-build-projectOne/topmostsourcing-backend/uploads/1727256285257_15847 (1) (1).jpg",
+      "type": "CONTAINS"
+    }
+  ]
+}
