@@ -8,6 +8,7 @@ import fs from "fs";
 import { createProjectFromJson } from "./fileManager.js";
 import chunksRoute from "./routes/chunksRoute.js";
 import vectorDBRoute from "./routes/vectorDBRoute.js";
+import kgRoute from "./routes/implementKG.js";
 import { driver } from "./db/neo4j.js";
 
 const PROJECT_ROOT = path.join(process.cwd(), "projectStorage");
@@ -24,6 +25,7 @@ app.post("/load-json", (req, res) => {
 });
 app.use("/api/v1", chunksRoute);
 app.use("/api/v1/vectorDB", vectorDBRoute);
+app.use("/api/v1/knowledgeGraph", kgRoute);
 
 // ✅ Start HTTP Server
 const server = http.createServer(app);
@@ -64,12 +66,13 @@ watcher.on("change", (filePath) => {
   //         path: relativePath,
   //         content,
   //       })
+
   //     );
   //   }
   // });
 });
 
-const session = driver.session();
+export const session = driver.session();
 
 const neo4DBConnection = async () => {
   try {
@@ -80,29 +83,32 @@ const neo4DBConnection = async () => {
       "CREATE CONSTRAINT IF NOT EXISTS FOR (n:Node) REQUIRE n.id IS UNIQUE"
     );
 
-    const { nodes = [], relations = [] } = data;
-    // === 5. Insert all nodes ===
-    for (const node of nodes) {
-      const { id, type, ...props } = node;
-      await session.run(
-        `MERGE (n:Node {id: $id})
-         SET n.type = $type,
-             n += $props`,
-        { id, type, props }
-      );
-    }
+    // const { nodes = cyperData?.node, relations = cyperData?.edges } = data;
+    // const nodes = cyperData?.nodes;
+    // const relations = cyperData?.edges;
 
-    // === 6. Insert relationships ===
-    for (const rel of relations) {
-      const { from, to, type } = rel;
-      await session.run(
-        `MATCH (a:Node {id: $from}), (b:Node {id: $to})
-         MERGE (a)-[r:${type}]->(b)`,
-        { from, to }
-      );
-    }
+    // // === 5. Insert all nodes ===
+    // for (const node of nodes) {
+    //   const { id, type, ...props } = node;
+    //   await session.run(
+    //     `MERGE (n:Node {id: $id})
+    //      SET n.type = $type,
+    //          n += $props`,
+    //     { id, type, props }
+    //   );
+    // }
 
-    console.log("✅ Import complete!");
+    // // === 6. Insert relationships ===
+    // for (const rel of relations) {
+    //   const { from, to, type } = rel;
+    //   await session.run(
+    //     `MATCH (a:Node {id: $from}), (b:Node {id: $to})
+    //      MERGE (a)-[r:${type}]->(b)`,
+    //     { from, to }
+    //   );
+    // }
+
+    // console.log("✅ Import complete!");
   } catch (err) {
     console.error("❌ Error importing:", err);
   } finally {
